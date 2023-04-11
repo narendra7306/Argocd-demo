@@ -6,11 +6,11 @@ namespace: sr-ns
 commonLabels:
   env: poc
 resources:
-  - configmap.yaml
-  - cron-job.yaml
-  - job.yaml
-  - nginx-deployment.yaml
-  - nginx-service.yaml
-  - pv.yaml
-  - pvc.yaml
-  - secret.yaml
+  - yamls/configmap.yaml
+  - yamls/cron-job.yaml
+  - yamls/job.yaml
+  - yamls/nginx-deployment.yaml
+  - yamls/nginx-service.yaml
+  - yamls/pv.yaml
+  - yamls/pvc.yaml
+  - yamls/secret.yaml
